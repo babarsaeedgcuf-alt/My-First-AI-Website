@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ur" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="فیصل آباد کپڑا منڈی موبائل ایپ کا انٹرایکٹو نمونہ۔">
+  <title>کپڑا منڈی موبائل ایپ — نمونہ</title>
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="app-device.css">
+  <script src="language.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main class="demo-shell">
+    <aside class="demo-info">
+      <a class="back-link" href="index.html">← ویب سائٹ پر واپس</a>
+      <p class="eyebrow">انٹرایکٹو نمونہ</p>
+      <h1>کپڑا منڈی<br><em>آپ کی جیب میں</em></h1>
+      <p>خریدار اور دکاندار دونوں موڈ آزمائیں۔ تلاش کریں، پسندیدہ کپڑا محفوظ کریں، ٹیب تبدیل کریں اور نئی لسٹنگ کا نمونہ دیکھیں۔</p>
+      <div class="language-switcher demo-languages" aria-label="زبان منتخب کریں"><button class="active" type="button" data-lang="ur">اردو</button><button type="button" data-lang="roman">Roman</button><button type="button" data-lang="en">English</button></div>
+      <div class="mode-switch" aria-label="ایپ موڈ">
+        <button class="active" type="button" data-mode="buyer">خریدار</button>
+        <button type="button" data-mode="seller">دکاندار</button>
+      </div>
+      <ul><li>اردو فرسٹ تجربہ</li><li>موبائل اور ڈیسک ٹاپ پر ریسپانسیو</li><li>یہ تصوراتی نمونہ ہے—اصل آرڈرز فعال نہیں</li></ul>
+    </aside>
+
+    <section class="device" aria-label="آئی فون طرز کا موبائل فریم">
+      <span class="side-button side-one"></span><span class="side-button side-two"></span><span class="side-button side-three"></span>
+      <div class="phone" aria-label="کپڑا منڈی ایپ">
+      <div class="dynamic-island" aria-hidden="true"></div>
+      <div class="status-bar"><span>9:41</span><span>● ◔ ▰</span></div>
+      <header class="app-header">
+        <div class="app-logo"><span class="logo-mark"><i></i><i></i><i></i></span><div><b id="app-title">کپڑا منڈی</b><small id="app-subtitle">فیصل آباد</small></div></div>
+        <button class="icon-button notification" type="button" aria-label="اطلاعات">♢<i></i></button>
+      </header>
+
+      <div class="screen buyer-screen active" data-screen="buyer-home">
+        <p class="welcome">السلام علیکم، فیصل 👋</p><h2>آج کیا تلاش<br>کر رہے ہیں؟</h2>
+        <label class="search-box"><span>⌕</span><input id="fabric-search" type="search" placeholder="لان، کاٹن یا دکاندار تلاش کریں"><b>☷</b></label>
+        <div class="quick-actions"><button type="button" data-toast="تصویر سے تلاش جلد دستیاب ہوگی">▣ <span>تصویر سے تلاش</span></button><button type="button" data-toast="آپ کی ضرورت دکانداروں تک پہنچا دی جائے گی">⌁ <span>ضرورت پوسٹ کریں</span></button></div>
+        <div class="section-title"><h3>مشہور اقسام</h3><button type="button" data-toast="تمام اقسام جلد شامل ہوں گی">سب دیکھیں</button></div>
+        <div class="categories"><button class="pink" type="button" data-filter="لان"><span>✿</span><b>لان</b></button><button class="blue" type="button" data-filter="کاٹن"><span>▦</span><b>کاٹن</b></button><button class="purple" type="button" data-filter="ریشم"><span>◆</span><b>ریشم</b></button></div>
+        <div class="section-title"><h3>آج کی نئی آمد</h3><span id="result-count">۳ اشیاء</span></div>
+        <div class="products" id="products">
+          <article class="product" data-name="پرنٹڈ سمر لان النور فیبرکس لان"><div class="fabric fabric-pink"></div><div class="product-copy"><span class="verified">✓ تصدیق شدہ</span><h3>پرنٹڈ سمر لان</h3><p>النور فیبرکس · گول بازار</p><strong><bdi>Rs. 1,850</bdi> <small>/ سوٹ</small></strong></div><button class="heart" type="button" aria-label="محفوظ کریں">♡</button></article>
+          <article class="product" data-name="پریمیم سفید کاٹن رحمان ٹیکسٹائل کاٹن"><div class="fabric fabric-blue"></div><div class="product-copy"><span class="verified">✓ تصدیق شدہ</span><h3>پریمیم سفید کاٹن</h3><p>رحمان ٹیکسٹائل · ریل بازار</p><strong><bdi>Rs. 640</bdi> <small>/ میٹر</small></strong></div><button class="heart" type="button" aria-label="محفوظ کریں">♡</button></article>
+          <article class="product" data-name="فارمل ریشم کلیکشن ستارہ کلاتھ ریشم"><div class="fabric fabric-purple"></div><div class="product-copy"><span class="verified">✓ تصدیق شدہ</span><h3>فارمل ریشم کلیکشن</h3><p>ستارہ کلاتھ · کچہری بازار</p><strong><bdi>Rs. 2,900</bdi> <small>/ سوٹ</small></strong></div><button class="heart" type="button" aria-label="محفوظ کریں">♡</button></article>
+        </div>
+      </div>
+
+      <div class="screen simple-screen" data-screen="market"><span class="large-icon">▦</span><h2>کپڑوں کا بازار</h2><p>لان، کاٹن، کھدر، لینن، ریشم اور ڈینم کی تصدیق شدہ لسٹنگز یہاں دکھائی جائیں گی۔</p><button class="main-button" type="button" data-go="buyer-home">نئی آمد دیکھیں</button></div>
+      <div class="screen simple-screen" data-screen="messages"><span class="large-icon">⌁</span><h2>پیغامات</h2><p>دکانداروں سے قیمت، مقدار، نمونوں اور ڈیلیوری کے بارے میں براہِ راست بات کریں۔</p><button class="main-button" type="button" data-toast="ڈیمو میں کوئی نیا پیغام نہیں">نیا پیغام</button></div>
+      <div class="screen simple-screen" data-screen="profile"><span class="large-icon">◉</span><h2>میرا پروفائل</h2><p>محفوظ کپڑے، پسندیدہ دکانیں، انکوائریز اور زبان کی ترتیبات یہاں ہوں گی۔</p><div class="profile-stat"><span>محفوظ اشیاء</span><b id="saved-count">۰</b></div></div>
+
+      <div class="screen seller-screen" data-screen="seller-home">
+        <section class="seller-hero"><small>خوش آمدید</small><h2>رحمان ٹیکسٹائل</h2><span>✓ تصدیق شدہ دکاندار</span><button type="button" id="add-listing">＋ نئی لسٹنگ</button></section>
+        <div class="seller-stats"><article><span>نئی انکوائریز</span><b>۱۲</b><small>آج +۴</small></article><article><span>فعال لسٹنگز</span><b id="listing-count">۲۸</b><small>۳ کم اسٹاک</small></article></div>
+        <div class="section-title"><h3>فوری کام</h3></div>
+        <div class="seller-actions"><button type="button" id="stock-button">▣<span>اسٹاک شامل کریں</span></button><button type="button" data-toast="نئی کوٹیشن کا ڈرافٹ بن گیا">▤<span>کوٹیشن بنائیں</span></button><button type="button" data-toast="کیٹلاگ کا لنک کاپی ہوگیا">▦<span>کیٹلاگ شیئر</span></button></div>
+        <div class="section-title"><h3>نئی انکوائریز</h3><button type="button">تمام</button></div>
+        <div class="inquiries"><article><span>AK</span><div><b>احمد کلیکشن</b><p>۵۰۰ میٹر سفید کاٹن درکار</p><small>۵ منٹ پہلے</small></div><button type="button" data-toast="جواب کا خانہ کھول دیا گیا">جواب دیں</button></article><article><span class="violet">SK</span><div><b>سارہ بوتیک</b><p>پرنٹڈ لان کے نمونے</p><small>۲۲ منٹ پہلے</small></div><button type="button" data-toast="جواب کا خانہ کھول دیا گیا">جواب دیں</button></article></div>
+      </div>
+
+      <nav class="bottom-nav buyer-nav" aria-label="خریدار نیویگیشن"><button class="active" type="button" data-target="buyer-home"><span>⌂</span><b>مرکزی</b></button><button type="button" data-target="market"><span>▦</span><b>بازار</b></button><button class="camera" type="button" data-toast="کیمرہ سرچ جلد دستیاب ہوگی"><span>▣</span></button><button type="button" data-target="messages"><span>⌁</span><b>پیغامات</b></button><button type="button" data-target="profile"><span>◉</span><b>پروفائل</b></button></nav>
+      <nav class="bottom-nav seller-nav" aria-label="دکاندار نیویگیشن" hidden><button class="active" type="button" data-target="seller-home"><span>⌂</span><b>ڈیش بورڈ</b></button><button type="button" data-toast="اسٹاک مینیجر جلد دستیاب ہوگا"><span>▦</span><b>اسٹاک</b></button><button type="button" data-toast="تمام انکوائریز یہاں ہوں گی"><span>⌁</span><b>انکوائریز</b></button><button type="button" data-toast="دکان کی پروفائل یہاں ہوگی"><span>◉</span><b>دکان</b></button></nav>
+      <div class="toast" role="status" aria-live="polite"></div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

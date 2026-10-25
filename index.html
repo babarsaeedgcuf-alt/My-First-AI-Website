@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hish Mines is an original voxel-inspired adventure world about building, exploring, and discovering the unknown.">
+  <title>Hish Mines — Build Your World</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav shell" aria-label="Main navigation">
+      <a class="brand" href="index.html" aria-label="Hish Mines home"><span class="brand-cube" aria-hidden="true"></span><span>HISH <b>MINES</b></span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span><span class="sr-only">Open menu</span></button>
+      <div class="nav-links" id="nav-links">
+        <a class="active" href="index.html">Home</a>
+        <a href="explore.html">Explore</a>
+        <a href="#features">Game Features</a>
+        <a class="nav-cta" href="#coming-soon">Coming Soon</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="aurora aurora-one"></div><div class="aurora aurora-two"></div>
+      <div class="pixel-stars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <div class="shell hero-grid">
+        <div class="hero-copy reveal">
+          <p class="kicker"><span></span> A new realm is forming</p>
+          <h1 id="hero-title">HISH<br><em>MINES</em></h1>
+          <p class="hero-tagline">Build Your World.<br>Discover Your Adventure.</p>
+          <p class="hero-intro">Shape wild lands, uncover ancient secrets, and create something entirely your own in a colorful universe built from imagination.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="explore.html">Explore the World <span aria-hidden="true">→</span></a>
+            <a class="button button-ghost" href="#coming-soon">Coming Soon</a>
+          </div>
+        </div>
+
+        <div class="hero-art reveal" aria-label="Original block-style fantasy island floating in a starry sky">
+          <svg class="world-svg" viewBox="0 0 680 650" role="img" aria-labelledby="world-title world-desc">
+            <title id="world-title">The floating wilds of Hish Mines</title>
+            <desc id="world-desc">A glowing floating island with blocky trees, waterfalls, crystals, and a distant moon.</desc>
+            <defs>
+              <linearGradient id="islandTop" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6df09c"/><stop offset="1" stop-color="#13845d"/></linearGradient>
+              <linearGradient id="islandSide" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#5b4c8c"/><stop offset="1" stop-color="#182044"/></linearGradient>
+              <linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#6dfcff"/><stop offset="1" stop-color="#2474ff" stop-opacity=".15"/></linearGradient>
+              <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+            </defs>
+            <circle cx="540" cy="104" r="54" fill="#ffe393" opacity=".15"/><circle cx="540" cy="104" r="35" fill="#ffe393" filter="url(#glow)"/>
+            <path d="M72 298 316 190 601 306 350 432Z" fill="url(#islandTop)"/>
+            <path d="M72 298 350 432 336 581 273 515 232 524 188 436 125 405Z" fill="#3b356f"/>
+            <path d="M601 306 350 432 336 581 405 522 438 525 489 423 554 397Z" fill="url(#islandSide)"/>
+            <path d="M404 408 459 380 452 489 426 550 410 495Z" fill="url(#water)" filter="url(#glow)"/>
+            <g class="tree"><path d="m185 260 30-13 31 14-31 15Z" fill="#32d889"/><path d="m185 260 30 16v47l-30-16Z" fill="#13845d"/><path d="m246 261-31 15v47l31-16Z" fill="#0d674d"/><path d="m207 317 9-4 10 5-10 5Z" fill="#b88b54"/><path d="m207 317 9 6v35l-9-6Z" fill="#79543a"/><path d="m226 318-10 5v35l10-6Z" fill="#50382d"/></g>
+            <g class="tree tree-two"><path d="m370 238 39-17 40 18-40 19Z" fill="#55eda0"/><path d="m370 238 39 20v58l-39-20Z" fill="#16885e"/><path d="m449 239-40 19v58l40-20Z" fill="#0c6049"/><path d="m398 307 12-5 12 6-12 6Z" fill="#b88b54"/><path d="m398 307 12 7v40l-12-6Z" fill="#79543a"/><path d="m422 308-12 6v40l12-6Z" fill="#50382d"/></g>
+            <g filter="url(#glow)"><path d="m291 318 14-27 14 28-14 22Z" fill="#bda5ff"/><path d="m512 327 11-23 12 24-12 17Z" fill="#55f5ff"/><path d="m150 335 9-19 10 20-10 15Z" fill="#ffd65a"/></g>
+            <g fill="#fff" opacity=".85"><rect x="87" y="150" width="8" height="8"/><rect x="483" y="185" width="6" height="6"/><rect x="590" y="211" width="9" height="9"/></g>
+          </svg>
+          <div class="floating-cube cube-a"><span></span></div><div class="floating-cube cube-b"><span></span></div><div class="floating-cube cube-c"><span></span></div>
+          <div class="art-label"><span class="status-dot"></span><div><small>World signal</small><strong>The Verdant Drift</strong></div></div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#welcome" aria-label="Scroll to welcome section"><span></span>Scroll to discover</a>
+    </section>
+
+    <section class="welcome section" id="welcome">
+      <div class="shell split-layout">
+        <div class="section-heading reveal"><p class="kicker"><span></span> Welcome, wanderer</p><h2>A universe shaped<br>by <em>your imagination.</em></h2></div>
+        <div class="welcome-copy reveal"><p class="lead">Hish Mines is an upcoming block-based adventure concept where every ridge hides a story and every block holds possibility.</p><p>Roam curious landscapes, gather strange materials, dream up towering creations, and follow the glow toward discoveries no explorer has seen before.</p><div class="mini-stats"><div><strong>∞</strong><span>Ideas to build</span></div><div><strong>3</strong><span>Realms revealed</span></div><div><strong>1</strong><span>World to shape</span></div></div></div>
+      </div>
+    </section>
+
+    <section class="features section" id="features">
+      <div class="shell">
+        <div class="section-heading centered reveal"><p class="kicker"><span></span> Your adventure, your way</p><h2>What will you <em>discover?</em></h2><p>Four paths. Endless possibilities. Choose where your curiosity leads.</p></div>
+        <div class="feature-grid">
+          <article class="feature-card green reveal"><div class="feature-number">01</div><div class="feature-icon" aria-hidden="true">▦</div><h3>Build Amazing Worlds</h3><p>Stack, shape, and transform the landscape into creations only you could imagine.</p><span class="card-line"></span></article>
+          <article class="feature-card blue reveal"><div class="feature-number">02</div><div class="feature-icon" aria-hidden="true">⌖</div><h3>Explore Hidden Lands</h3><p>Journey beyond the mapped horizon into caverns, cloud kingdoms, and wild valleys.</p><span class="card-line"></span></article>
+          <article class="feature-card purple reveal"><div class="feature-number">03</div><div class="feature-icon" aria-hidden="true">✦</div><h3>Discover Mysterious Creatures</h3><p>Meet unusual friends and elusive beings, each with a story waiting to unfold.</p><span class="card-line"></span></article>
+          <article class="feature-card gold reveal"><div class="feature-number">04</div><div class="feature-icon" aria-hidden="true">◆</div><h3>Unlock New Adventures</h3><p>Follow ancient clues, reveal hidden paths, and open the next chapter of your journey.</p><span class="card-line"></span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="coming section" id="coming-soon">
+      <div class="shell coming-card reveal">
+        <div class="coming-glow"></div><div class="coming-mark" aria-hidden="true">HM</div>
+        <div class="coming-copy"><p class="kicker"><span></span> The journey begins soon</p><h2>A new world is<br><em>on the horizon.</em></h2><p>Hish Mines is an independent game concept currently taking shape. Explore the first revealed realms and get a glimpse of adventures planned for the future.</p><a class="button button-primary" href="explore.html">Enter the Universe <span aria-hidden="true">→</span></a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid"><a class="brand" href="index.html"><span class="brand-cube" aria-hidden="true"></span><span>HISH <b>MINES</b></span></a><p>An Independent Game Concept</p><nav aria-label="Footer navigation"><a href="index.html">Home</a><a href="explore.html">Explore</a></nav></div>
+    <div class="shell footer-bottom"><p>© 2026 Hish Mines. All original concepts.</p><p>Imagine • Build • Explore</p></div>
+  </footer>
+</body>
+</html>
